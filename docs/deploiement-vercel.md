@@ -2,6 +2,7 @@
 
 ## Arborescence 
 
+```
 CP8_Lanterne/
 ├── .env        → variables d'environnement, à mettre dans .gitignore
 ├── .gitignore   → sert à ne pas rendre publique certains fichiers lors du déploiement, .env par exemple
@@ -14,6 +15,7 @@ CP8_Lanterne/
     └── data/    → dossier contenant le ou les fichiers JSON qui composent les données de l'API
 ├── docs/    → dossier contenant la documentation nécessaire pour qu’une personne puisse déployer l'application
 └── tests    → dossier contenant les fichiers tests, de manière à tester les requêtes disponibles
+```
 
 ## Dépendances
 
@@ -56,6 +58,10 @@ node tests/api.test.js
 ## Variables d'environnement
 
 On peut les modifier directement sur Vercel, car elle ne doivent pas être publique.
+
+## Procédure de déploiement
+- Création repository GitHub
+- Vercel → Add New → Project → trouver notre repo GitHub → import
 
 ## La mise à jour et le retour en arrière
 
