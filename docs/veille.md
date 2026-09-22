@@ -6,7 +6,9 @@ mieux comprendre package.json et pnpm-lock.yaml :
 vérifier la compatibilité entre la version Node et Vercel : 
     https://vercel.com/docs/functions/runtimes/node-js/node-js-versions
 
+vérifier si la version node est à jour :
+    https://nodejs.org/fr/about/previous-releases
+
 faire fonctionner les routes :
     https://stackoverflow.com/questions/74854850/why-the-api-route-dont-work-on-deployment-on-vercel
 
-    

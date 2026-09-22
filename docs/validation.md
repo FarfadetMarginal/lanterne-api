@@ -109,6 +109,7 @@ code HTTP : 404
 
 
 ## Scripts
+
 Les scripts sont documentés dans deploiement-vercel.md, ou simplement dans package.json. Ils fonctionnent correctement. 
 Les 2 premiers lancent le serveur, et on obtient "Lanterne API listening on port 3000"
 le 3e check si il y a des erreurs

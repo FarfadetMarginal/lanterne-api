@@ -21,9 +21,11 @@ CORS : version 2.8.5
 Express : version 5.1.0
 
 ### Node
+
 version : v24.16.0
 
 ## Scripts disponibles
+
 Lancer le serveur: 
 ```bash
 node api/index.js
@@ -45,14 +47,17 @@ node tests/api.test.js
 ``` 
 
 ## Routes
-- `GET /api/health`
-- `GET /api/curiosities`
-- `GET /api/curiosities?q=canal&limit=5`
-- `GET /api/curiosities/:slug`
+
+- `GET /health`
+- `GET /curiosities`
+- `GET /curiosities?q=canal&limit=5`
+- `GET /curiosities/:slug`
 
 ## Variables d'environnement
+
 On peut les modifier directement sur Vercel, car elle ne doivent pas être publique.
 
 ## La mise à jour et le retour en arrière
+
 Une mise à jour se fait automatiquement lors d'un push sur GitHub.
 Pour un retour à une version précedente, sur Vercel : page du projet → deploiement → on choisis la version voulue → promote
