@@ -49,3 +49,6 @@ node tests/api.test.js
 - `GET /api/curiosities?q=canal&limit=5`
 - `GET /api/curiosities/:slug`
 
+## Variables d'environnement
+On peut les modifier directement sur Vercel, car elle ne doivent pas être publique.
+
