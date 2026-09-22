@@ -12,3 +12,7 @@ vérifier si la version node est à jour :
 faire fonctionner les routes :
     https://stackoverflow.com/questions/74854850/why-the-api-route-dont-work-on-deployment-on-vercel
 
+    https://vercel.com/docs/project-configuration/vercel-json#routes
+
+    
+
