@@ -16,13 +16,13 @@ pnpm test
 pnpm start
 ```
 
-L’API est disponible sur `http://localhost:3000`.
+L’API est disponible sur `https://lanterne-api.vercel.app`.
 
 ## Routes principales
 
-- `GET /api/health`
-- `GET /api/curiosities`
-- `GET /api/curiosities?q=canal&limit=5`
-- `GET /api/curiosities/:slug`
+- `GET /health`
+- `GET /curiosities`
+- `GET /curiosities?q=canal&limit=5`
+- `GET /curiosities/:slug`
 
 Le déploiement cible Vercel. Les variables d’environnement sont listées dans `.env.example`. Aucune donnée sensible ne doit être ajoutée au dépôt.

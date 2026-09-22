@@ -53,3 +53,6 @@ node tests/api.test.js
 ## Variables d'environnement
 On peut les modifier directement sur Vercel, car elle ne doivent pas être publique.
 
+## La mise à jour et le retour en arrière
+Une mise à jour se fait automatiquement lors d'un push sur GitHub.
+Pour un retour à une version précedente, sur Vercel : page du projet → deploiement → on choisis la version voulue → promote
