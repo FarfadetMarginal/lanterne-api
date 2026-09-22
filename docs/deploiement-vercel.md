@@ -1,4 +1,4 @@
-## Audit du projet
+# Audit du projet
 
 ## Arborescence 
 
@@ -11,7 +11,7 @@ CP8_Lanterne/
 ├── README.md    → documentation générale
 ├── api/    
     ├── index.js    → point d'entrée express, mise en place des sécurité, configurations de base, les routes du serveur 
-    ├── data/    → dossier contenant le ou les fichiers JSON qui composent les données de l'API
+    └── data/    → dossier contenant le ou les fichiers JSON qui composent les données de l'API
 ├── docs/    → dossier contenant la documentation nécessaire pour qu’une personne puisse déployer l'application
 └── tests    → dossier contenant les fichiers tests, de manière à tester les requêtes disponibles
 
