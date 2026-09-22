@@ -4,9 +4,10 @@
 
 CP8_Lanterne/
 ├── .env        → variables d'environnement, à mettre dans .gitignore
-├── .gitignore      → sert à ne pas rendre publique certains fichiers lors du déploiement, .env par exemple
-├── package.json    → fichier qui stocke les infos de base du projet (nom, version, ect), les dépendances, et les scripts persos
-├── pnpm-lock.yaml    → fichier de verrouillage qui enregistre les versions exactes et les dépendances des paquets installés
+├── .gitignore   → sert à ne pas rendre publique certains fichiers lors du déploiement, .env par exemple
+├── package.json   → fichier qui stocke les infos de base du projet (nom, version, ect), les dépendances, et les scripts persos
+├── pnpm-lock.yaml  → fichier de verrouillage qui enregistre les versions exactes et les dépendances des paquets installés
+├── vercel.json    → configurations vercel
 ├── README.md    → documentation générale
 ├── api/    
     ├── index.js    → point d'entrée express, mise en place des sécurité, configurations de base, les routes du serveur 

@@ -40,5 +40,12 @@
     "city": "La Rochelle",
     "category": "mémoire",
     "description": "Une ancienne remise de quai devenue un repère pour les promeneurs curieux."
+  },
+  {
+    "slug": "vivarium-merveilleux",
+    "title": "Le vivarium merveilleux",
+    "city": "San Junipero",
+    "category": "serpent",
+    "description": "Un immense dôme de verre rempli de serpents en tout genre"
   }
 ]
